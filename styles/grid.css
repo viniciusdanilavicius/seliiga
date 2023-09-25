@@ -1,0 +1,56 @@
+.Imagem{
+    width: 130px!important;
+    height: 110px!important;
+}
+.div-todasimagens{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    text-align: center;
+    margin-top: 25px;
+    position: inherit;
+}
+.titulo{
+    font-size: 10px;
+    color: rgb(146, 83, 204);
+    margin-bottom: 7px;
+    text-align: center;
+}
+.secao_banner{
+    display:none;
+}
+@media screen  (min-width:1024){
+    .gridimg{
+        backgraund-color: rgb(137, 137, 255);
+    }
+    .imagem{
+        border-top: 10px groove rgb (92, 33, 133);
+        border-left: 10px dotted rgb (231, 217, 12);
+        border-right:10px solid rgb (223, 5, 5);
+        border-bottom:10px dashed rgb (9, 9, 177);
+        width: 180px! important;
+        height: 160px! important;
+    }
+    .titulo{
+        font-size: 30px;
+        color: rgb(2, 46, 46);
+    }
+    .secao_banner{
+        width: 100%;
+        display: block;
+    }
+}
+.foteras{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    text-align: center;
+    margin-top: 10px;
+    position: inherit;
+    background-color: rgb(35, 24, 9)
+}
+.footera{
+    width: 40px!important;
+    height: 40px!important;
+}
+.gridimg2{
+    background-color: rgb(98, 140, 161);
+}
